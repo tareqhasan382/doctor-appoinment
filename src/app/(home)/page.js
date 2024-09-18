@@ -6,7 +6,7 @@ import FindSpeciality from "@/components/UI/FindSpeciality";
 import DoctorsBook from "@/components/UI/DoctorsBook";
 import BottomBanner from "@/components/UI/BottomBanner";
 import header_img from "../../assets/header_img.png";
-export const BASEURL = "https://doctor-appoinment-booking-delta.vercel.app"; //"http://localhost:3000";
+export const BASEURL = "https://doctor-appoinment-blond.vercel.app"; //"http://localhost:3000";
 export default function Home() {
   return (
     <div className=" w-full h-full flex flex-col items-center  ">
