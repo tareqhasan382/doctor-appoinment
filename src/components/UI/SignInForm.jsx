@@ -7,8 +7,8 @@ import { signIn } from "next-auth/react";
 const SignInForm = () => {
   const router = useRouter();
   const [loading, setLoading] = useState(false);
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("tareqhasan382@gmail.com");
+  const [password, setPassword] = useState("tareqhasan382");
   const handleSubmit = async (e) => {
     e.preventDefault();
 
